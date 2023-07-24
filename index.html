@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poker Hands</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="icon" href="./assets/imgs/icon-512.png">
+    <link rel="stylesheet" href="./assets/themify-icons/css/themify-icons.css">
+</head>
+<body>
+    <nav>
+        <img class="i1" src="./assets/imgs/icon2-192.png" alt=""> 
+        <h1>Poker Hands</h1>
+        <p><a href="./index-pt.html"><img class="if" src="./assets/imgs/flag-pt.png" alt=""></a></p>
+        <p><a href="./index.html"><img class="if" src="./assets/imgs/flag-uk.png" alt=""></a></p>
+    </nav>
+
+    <div id="handsId" class="handscontainer">
+        <h2>Royal Flush</h2>
+        <p>Five cards of the same suit in sequence 10 to Ace.</p>
+        <p>Probability: 0.000154%; Odds Against: 649,739 : 1</p>
+        <img id="i11" src="./assets/imgs/Hands/RoyalFlush/royalFlush-spades.png" alt="" style="display:inline-block;">
+        <img id="i21" src="./assets/imgs/Hands/RoyalFlush/royalFlush-hearts.png" alt="" style="display:none;">
+        <img id="i31" src="./assets/imgs/Hands/RoyalFlush/royalFlush-clubs.png" alt="" style="display:none;">
+        <img id="i41" src="./assets/imgs/Hands/RoyalFlush/royalFlush-diamonds.png" alt="" style="display:none;">
+        
+    </div>
+
+    <div id="handsId" class="handscontainer">
+        <h2>Straight Flush</h2>
+        <p>Five cards of the same suit in sequence (excluding royal flush)</p>
+        <p>Probability: 0.00139%; Odds Against: 72,192.33 : 1</p>
+        <img id="i12" src="./assets/imgs/Hands/StraightFlush/straightflush-hearts.png" alt="" style="display:inline-block;">
+        <img id="i22" src="./assets/imgs/Hands/StraightFlush/straightflush-clubs.png" alt="" style="display:none;">
+        <img id="i32" src="./assets/imgs/Hands/StraightFlush/straightflush-diamonds.png" alt="" style="display:none;">
+        <img id="i42" src="./assets/imgs/Hands/StraightFlush/straightflush-spades.png" alt="" style="display:none;">
+    </div>
+
+    <div id="handsId" class="handscontainer">
+        <h2>Four of a Kind</h2>
+        <p>Four cards of the same rank.</p>
+        <p>Probability: 0.02401%; Odds Against: 4,165 : 1</p>
+        <img id="i13" src="./assets/imgs/Hands/FourofaKind/foak1.png" alt="" style="display:inline-block;">
+        <img id="i23" src="./assets/imgs/Hands/FourofaKind/foak2.png" alt="" style="display:none;">
+        <img id="i33" src="./assets/imgs/Hands/FourofaKind/foak3.png" alt="" style="display:none;">
+        <img id="i43" src="./assets/imgs/Hands/FourofaKind/foak4.png" alt="" style="display:none;">
+    </div>
+
+    <div id="handsId" class="handscontainer">
+        <h2>Full House</h2>
+        <p>Three matching cards of one rank and two matching cards of another rank.</p>
+        <p>Probability: 0.1441%; Odds Against: 693.1667 : 1</p>
+        <img id="i14" src="./assets/imgs/Hands/FullHouse/fullhouse-1.png" alt="" style="display:inline-block;">
+        <img id="i24" src="./assets/imgs/Hands/FullHouse/fullhouse-2.png" alt="" style="display:none;">
+        <img id="i34" src="./assets/imgs/Hands/FullHouse/fullhouse-3.png" alt="" style="display:none;">
+        <img id="i44" src="./assets/imgs/Hands/FullHouse/fullhouse-4.png" alt="" style="display:none;">
+    </div>
+
+    <div id="handsId" class="handscontainer">
+        <h2>Flush</h2>
+        <p>Five cards of the same suit (excluding royal flush and straight flush).</p>
+        <p>Probability: 0.1965%; Odds Against: 508.8019 : 1</p>
+        <img id="i15" src="./assets/imgs/Hands/Flush/Flush-1.png" alt="" style="display:inline-block;">
+        <img id="i25" src="./assets/imgs/Hands/Flush/Flush-2.png" alt="" style="display:none;">
+        <img id="i35" src="./assets/imgs/Hands/Flush/Flush-3.png" alt="" style="display:none;">
+        <img id="i45" src="./assets/imgs/Hands/Flush/Flush-4.png" alt="" style="display:none;">
+    </div>
+
+    <div id="handsId" class="handscontainer">
+        <h2>Straight</h2>
+        <p>Five cards in sequence of ranks (excluding royal flush and straight flush).</p>
+        <p>Probability: 0.3925%; Odds Against: 253.8 : 1</p>
+        <img id="i16" src="./assets/imgs/Hands/Straight/straight-1.png" alt="" style="display:inline-block;">
+        <img id="i26" src="./assets/imgs/Hands/Straight/straight-2.png" alt="" style="display:none;">
+        <img id="i36" src="./assets/imgs/Hands/Straight/straight-3.png" alt="" style="display:none;">
+        <img id="i46" src="./assets/imgs/Hands/Straight/straight-4.png" alt="" style="display:none;">
+    </div>
+
+    <div id="handsId" class="handscontainer">
+        <h2>Three of a Kind</h2>
+        <p>Three cards of the same rank.</p>
+        <p>Probability: 2.1128%; Odds Against: 46.32955 : 1</p>
+        <img id="i17" src="./assets/imgs/Hands/ThreeofaKind/toak-1.png" alt="" style="display:inline-block;">
+        <img id="i27" src="./assets/imgs/Hands/ThreeofaKind/toak-2.png" alt="" style="display:none;">
+        <img id="i37" src="./assets/imgs/Hands/ThreeofaKind/toak-3.png" alt="" style="display:none;">
+        <img id="i47" src="./assets/imgs/Hands/ThreeofaKind/toak-4.png" alt="" style="display:none;">
+    </div>
+
+    <div id="handsId" class="handscontainer">
+        <h2>Two Pair</h2>
+        <p>Two pairs of cards that have matching ranks.</p>
+        <p>Probability: 4.7539%; Odds Against: 20.03535 : 1</p>
+        <img id="i18" src="./assets/imgs/Hands/TwoPair/twopair-1.png" alt="" style="display:inline-block;">
+        <img id="i28" src="./assets/imgs/Hands/TwoPair/twopair-2.png" alt="" style="display:none;">
+        <img id="i38" src="./assets/imgs/Hands/TwoPair/twopair-3.png" alt="" style="display:none;">
+        <img id="i48" src="./assets/imgs/Hands/TwoPair/twopair-4.png" alt="" style="display:none;">
+    </div>
+
+    <div id="handsId" class="handscontainer">
+        <h2>One Pair</h2>
+        <p>Two cards of the same rank.</p>
+        <p>Probability: 42.2569%; Odds Against: 1.366477 : 1</p>
+        <img id="i19" src="./assets/imgs/Hands/OnePair/op-1.png" alt="" style="display:inline-block;">
+        <img id="i29" src="./assets/imgs/Hands/OnePair/op-2.png" alt="" style="display:none;">
+        <img id="i39" src="./assets/imgs/Hands/OnePair/op-3.png" alt="" style="display:none;">
+        <img id="i49" src="./assets/imgs/Hands/OnePair/op-4.png" alt="" style="display:none;">
+    </div>
+
+    <div id="handsId" class="handscontainer">
+        <h2>High Card</h2>
+        <p>The card with the highest rank.</p>
+        <p>Probability: 50.1177%; Odds Against: 0.9953015 : 1</p>
+        <img id="i110" src="./assets/imgs/Hands/HighCard/high-1.png" alt="" style="display:inline-block;">
+        <img id="i210" src="./assets/imgs/Hands/HighCard/high-2.png" alt="" style="display:none;">
+        <img id="i310" src="./assets/imgs/Hands/HighCard/high-3.png" alt="" style="display:none;">
+        <img id="i410" src="./assets/imgs/Hands/HighCard/high-4.png" alt="" style="display:none;">
+    </div>
+
+    <button id="nextButton" class="reloadB"><i class="ti-reload"></i></button>
+
+    <footer class="footer">
+        <p>
+            &copy;<script>document.write(new Date().getFullYear())</script> Created By <a class="name">Guilherme Outeiro</a>
+        </p>
+    </footer>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
